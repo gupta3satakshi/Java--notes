@@ -1,0 +1,12 @@
+Java Virtual Machine (JVM) is an engine that provides a runtime environment to drive the Java Code or applications.
+It converts Java bytecode into machine language. JVM is a part of Java Run Environment (JRE). 
+The compiler produces machine code for a particular system in other programming languages. 
+However, the Java compiler produces code for a Virtual Machine known as Java Virtual Machine. First, Java code is compiled into bytecode. 
+This bytecode gets interpreted on different machines Between the host system and Java source, Bytecode is an intermediary language. JVM is responsible for allocating memory space.
+•ClassLoader- The class loader is a subsystem for loading class files. It performs three major functions - Loading, Linking, and Initialization.
+•Method Area- JVM Method Area stores class structures like metadata, the constant runtime pool, and the code for methods.
+•Heap- All the Objects, their related instance variables, and arrays are stored in the heap. This memory is common and shared across multiple threads.
+•JVM language Stacks- Java language Stacks store local variables, and their partial results. Each thread has its own JVM stack, created simultaneously as the thread is created. A new frame is made whenever a method is invoked, and it is deleted when the method invocation process is complete.
+•PC Registers- PC register store the address of the Java virtual machine instruction which is currently executing. In Java, each thread has its separate PC register.•Native Method Stacks- Native method stacks hold the instruction of native code depending on the native library. It is written in another language instead of Java.•Execution Engine- It is a type of software used to test hardware, software, or complete systems. The test execution engine never carries any information about the tested product.
+•Native Method interface- The Native Method Interface is a programming framework. It allows Java code which is running in a JVM to call by libraries and native applications.
+•Native Method Libraries- Native Libraries are a collection of the Native Libraries (C, C++) which are needed by the Execution Engine.
