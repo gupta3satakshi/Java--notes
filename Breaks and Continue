@@ -1,0 +1,30 @@
+Java Break -- The break statement can be used to jump out of a loop.
+Java Continue -- The continuestatement breaks one iteration (in the loop), if a specified condition occurs, and continues with the next iteration in the loop.
+
+In Java, break and continue are two control statements that alter the normal flow of execution in loops.  
+
+break statement: The break statement is used to terminate the current loop, switch, or labeled block. When executed, the break statement immediately exits the loop or block and continues with the next statement after the loop or block. It is commonly used when you want to exit a loop early based on some condition.
+Here's an example of using break in a for loop:
+
+for (int i = 1; i <= 10; i++) {
+if (i == 5) {
+break; // terminate the loop when i equals 5
+}
+System.out.println(i);
+}
+
+In this example, the loop will print the numbers from 1 to 4 and then terminate when i equals 5.  
+
+continue statement: The continue statement is used to skip the current iteration of a loop and continue with the next iteration. When executed, the continue statement skips the rest of the code in the current iteration and moves on to the next iteration of the loop. It is commonly used when you want to skip over certain values or conditions in a loop.
+Here's an example of using continue in a for loop:
+
+for (int i = 1; i <= 10; i++) {
+if (i % 2 == 0) {
+continue; // skip even numbers
+}
+System.out.println(i);
+}
+
+In this example, the loop will print the odd numbers from 1 to 10 and skip over the even numbers.
+
+Both break and continue statements can also be used with labeled blocks to break out of or continue a specific block. A labeled block is a block of code that is marked with a label using the syntax labelName: { ... }. To use a break or continue statement with a labeled block, you simply specify the label name after the keyword.
