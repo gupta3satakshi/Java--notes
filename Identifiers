@@ -17,3 +17,34 @@ Some valid and invalid identifiers in Java are listed as follows:
 •Tyy;ui8 //invalid as it contains the ‘;’ character
 •for //invalid as it is a Java keyword
 •Fg026 neo //invalid as it contains spaces
+
+In Java, literals and identifiers are used to represent values and names, respectively. Here's a brief description of each:
+
+Literals:
+
+A literal is a value that is written directly into the code of a program.
+There are several types of literals in Java, including integer literals, floating-point literals, boolean literals, and string literals.
+Integer literals can be expressed in decimal, hexadecimal, or octal notation. For example, 42 is a decimal integer literal, 0x2A is a hexadecimal integer literal, and 052 is an octal integer literal.
+Floating-point literals can be expressed in either decimal or scientific notation. For example, 3.14 is a decimal floating-point literal, and 1.23e-4 is a scientific notation floating-point literal.
+Boolean literals can be either true or false.
+String literals are enclosed in double quotes, like this: "Hello, World!".
+
+Identifiers:
+
+An identifier is a name used to identify a variable, method, class, or other entity in a Java program.
+An identifier must begin with a letter, underscore, or dollar sign, and can be followed by any combination of letters, digits, underscores, or dollar signs.
+Identifiers are case-sensitive, which means that foo and Foo are two different identifiers.
+It is important to choose meaningful and descriptive names for identifiers to make the code more readable and maintainable.
+Here's an example Java program that uses literals and identifiers:
+
+public class MyClass {
+public static void main(String[] args) {
+int x = 42; // integer literal
+double pi = 3.14159; // floating-point literal
+boolean flag = true; // boolean literal
+String message = "Hello, World!"; // string literal
+System.out.println(message); // identifier for variable name
+}
+}
+
+In this program, we declare four variables and initialize them with literals. We also use an identifier message to store a string literal, and then use that identifier to print the message to the console.
