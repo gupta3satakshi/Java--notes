@@ -1,0 +1,18 @@
+Java is a popular object-oriented programming language used to develop a wide range of applications, from mobile apps and web applications to desktop software and enterprise systems. Here is a basic program in Java that demonstrates some of the key features of the language:
+
+public class HelloWorld {
+
+public static void main(String[] args) {
+
+System.out.println("Hello, World!");
+
+}
+
+}
+
+This program simply prints the message "Hello, World!" to the console. Here's a brief explanation of how it works:
+
+public class HelloWorld: This line defines a new class called HelloWorld. In Java, all code must be defined within a class.
+public static void main(String[] args): This line defines a special method called main, which is the entry point for the program. It takes an array of strings as an argument (in this case, the args variable is not used).
+System.out.println("Hello, World!");: This line uses the System.out.println method to print the message "Hello, World!" to the console.
+To run this program, you can compile the source code into bytecode using the Java compiler (javac) and then run the bytecode using the Java Virtual Machine (java). Alternatively, you can use an integrated development environment (IDE) like Eclipse or IntelliJ IDEA to compile and run the program with a single click.
