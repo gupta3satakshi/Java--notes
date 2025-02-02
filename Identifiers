@@ -1,0 +1,19 @@
+Identifiers are the names given to the uniquely identified various programming elements like variables, arrays, methods, classes, objects, packages, interface and so on.
+
+Identifiers in Java are symbolic names used for identification. They can be a class name, variable name, method name, package name, constant name, and more. However, In Java, There are some reserved words that cannot be used as an identifier.
+
+While defining identifiers in Java, programmers must follow the rules listed as follows:
+
+•An identifier must be unique in a program.
+•Alphabets, digits, underscore and dollar sign characters can be used in an identifier.•An identifier must not start with a digit.
+•An identifier in an upper case is different from that in the lower case.•An identifier must not contain other characters such as ‘*’, ‘;’ and white space characters (tabs, space and newline).
+
+Some valid and invalid identifiers in Java are listed as follows:
+
+•Pol78_ddm //valid
+•hh$gl //valid
+•_78hhvt4 //valid
+•902gt1 //invalid as it starts with a digit
+•Tyy;ui8 //invalid as it contains the ‘;’ character
+•for //invalid as it is a Java keyword
+•Fg026 neo //invalid as it contains spaces
