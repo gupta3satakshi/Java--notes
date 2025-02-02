@@ -6,5 +6,5 @@ Therefore, by assigning different data types to variables, we can store integers
 
 There are two data types available in Java .
 
-1. Primitive Data Types
-2. Non Primitive/Reference Types.
+1. Primitive Data Types - byte, short, int, long, double, float, boolean char.
+2. Non Primitive/Reference Types - String, Array, Classes.
