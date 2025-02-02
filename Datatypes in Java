@@ -1,0 +1,10 @@
+Datatypes are used to define the type of data that a variable can hold.
+Variables are nothing but reserved memory locations to store values. 
+This means that when we create a variable we reserve some space in memory. 
+Based on the data type of a variable, the operating system allocates memory and decides what can be stored in the reserved memory. 
+Therefore, by assigning different data types to variables, we can store integers, decimals, or characters in these variables. 
+
+There are two data types available in Java .
+
+1. Primitive Data Types
+2. Non Primitive/Reference Types.
