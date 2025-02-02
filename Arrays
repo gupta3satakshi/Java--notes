@@ -1,0 +1,75 @@
+Arrays in Java are a data structure that stores multiple values of the same data type.
+2 Types - 1 D array & 2 D array
+To declare an array, define a variable with square brackets [ ]. To insert values in an array, place the values in a comma separated list with in curly brackets { }
+Eg: int[ ] myNum={10,40,50}
+We can access the array element by refering to the index number. For each loop is used exclusively to loop through the elements in an array.
+
+#one-dimensional array
+In Java, a one-dimensional array is a collection of elements of the same data type, where each element is assigned an index starting from 0 to n-1.
+Syntax: The syntax to declare a one-dimensional array is as follows:
+
+datatype[] arrayName = new datatype[length];
+
+where,
+datatype is the data type of the elements in the array.
+arrayName is the name of the array.
+length is the number of elements in the array.
+For example, to declare an array of integers with 5 elements, we can use the following code:
+
+int[] numbers = new int[5];
+
+This will create an array with the name "numbers" of type integer and with 5 elements.
+
+We can also initialize the array with specific values using the following syntax:
+
+datatype[] arrayName = {value1, value2, value3, ..., valueN};
+
+For example, to create an array of integers with specific values, we can use the following code:
+
+int[] numbers = {1, 2, 3, 4, 5};
+
+This will create an array with the name "numbers" of type integer and with 5 elements initialized with the values 1, 2, 3, 4 and 5.
+
+To access the elements of an array, we use the index number starting from 0. For example, to access the first element of the "numbers" array, we can use the following code:
+
+int firstElement = numbers[0];
+
+This will assign the value of the first element in the "numbers" array to the variable "firstElement".
+
+
+#multi dimentional array
+
+dataType[][] arrayRefVar; (or)
+dataType [][]arrayRefVar; (or)
+dataType arrayRefVar[][]; (or)
+dataType []arrayRefVar[];
+
+A multidimensional array is an array that contains arrays as its elements. It is also known as an array of arrays. In Java, multidimensional arrays are declared by specifying multiple sets of square brackets. The syntax for declaring a multidimensional array in Java is as follows:
+
+dataType[][] arrayName = new dataType[rows][columns];
+
+Here, dataType is the type of data that the array will hold. arrayName is the name of the array, rows specifies the number of rows, and columns specifies the number of columns.
+
+For example, to declare a two-dimensional array that holds integers, we can use the following code:
+
+int[][] arr = new int[3][4];
+
+This creates an array called arr that has three rows and four columns. Each element of the array is an integer.
+
+To access the elements of a multidimensional array, we use multiple sets of square brackets. For example, to access the element in the first row and second column of the arr array, we can use the following code:
+
+int element = arr[0][1];
+
+This retrieves the element at index 0 (the first row) and index 1 (the second column) of the arr array.
+
+Multidimensional arrays can have more than two dimensions. For example, to declare a three-dimensional array that holds integers, we can use the following code:
+
+int[][][] arr = new int[3][4][5];
+
+This creates an array called arr that has three layers, each of which has four rows and five columns. Each element of the array is an integer.
+
+To access the elements of a three-dimensional array, we use three sets of square brackets. For example, to access the element in the second layer, third row, and fourth column of the arr array, we can use the following code:
+
+int element = arr[1][2][3];
+
+This retrieves the element at index 1 (the second layer), index 2 (the third row), and index 3 (the fourth column) of the arr array.
