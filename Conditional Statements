@@ -1,0 +1,83 @@
+if (booleanExpression) {
+statement(s)-for-the-true-case;
+}
+else {
+statement(s)-for-the-false-case;
+}
+if (number % 2 == 0)
+System.out.println(number + “ is even.”);
+if (number % 2 != 0)
+System.out.println(number + “is odd.”);
+
+In Java, an if statement is a control structure that allows you to execute a block of code conditionally. The if statement evaluates a Boolean expression and executes the code inside the block only if the expression is true. If the expression is false, the code inside the block is skipped.
+
+The syntax for an if statement in Java is as follows:
+
+if (boolean_expression) {
+// code block to be executed if the boolean expression is true
+}
+
+The boolean_expression can be any expression that returns a Boolean value (true or false). The code block to be executed is enclosed in curly braces {} and must be indented to make it easier to read. If the boolean_expression is true, the code inside the block is executed. If the boolean_expression is false, the code inside the block is skipped.
+
+You can also add an optional else statement to an if statement to specify what to do if the boolean_expression is false. The syntax for an if-else statement in Java is as follows:
+
+if (boolean_expression) {
+// code block to be executed if the boolean expression is true
+} else {
+// code block to be executed if the boolean expression is false
+}
+
+In this case, if the boolean_expression is true, the code inside the first block is executed. If the boolean_expression is false, the code inside the second block is executed.
+
+Here's an example of an if statement in Java that checks whether a number is positive or negative:
+
+int num = -5;
+if (num > 0) {
+System.out.println("The number is positive");
+}
+
+In this example, if num is greater than 0, the message "The number is positive" is printed to the console. If num is less than or equal to 0, the code inside the block is skipped.
+
+
+
+
+If we have to realize a multiple-choice selection we can use several nested if-else statements. Java has also a specific statement that can be used in specific cases to realize in a simpler way a multiple-choice selection.
+
+switch (expression ) {
+case label-1 : statements-1
+break;
+...
+case label-n : statements-n
+break;
+default: default-statements
+int i;
+...
+switch (i) {
+case 0: System.out.println("zero"); break;
+case 1: System.out.println("one"); break;
+case 2: System.out.println("two"); break;
+default: System.out.println("less than zero or greater than two");
+}
+
+When i is equal to 0 (respectively, 1, 2) then "zero" (respectively "one", "two") is printed; when i is less than
+0 or greater than two, then "less than zero or greater than two" is printed.
+
+In Java, the switch statement is a control structure that allows you to execute different blocks of code based on the value of an expression. The switch statement evaluates an expression and compares its value to a set of constant expressions called case labels. If the value of the expression matches one of the case labels, the code associated with that case label is executed.
+
+The syntax for a switch statement in Java is as follows:
+switch (expression) {
+case value1:
+// code block to be executed if expression == value1
+break;
+case value2:
+// code block to be executed if expression == value2
+break;
+// more case statements can be added here
+default:
+// code block to be executed if none of the cases match
+break;
+}
+
+The expression is any expression that returns a value that can be compared to the case labels. The case labels are constants that are compared to the value of the expression. The code block associated with each case label is enclosed in curly braces {} and ends with a break statement, which tells Java to exit the switch statement and continue with the next statement.
+
+If the value of the expression matches one of the case labels, the code block associated with that case label is executed. If none of the case labels match the value of the expression, the code block associated with the default label is executed.
