@@ -1,0 +1,7 @@
+A variable is a container which holds the value while the Java program is executed. A variable is assigned with a data type. Variable is a name of memory location. 
+
+Declaring Variable :  To create a variable, you must specify the type and assign it a value. Eg: int var = 10
+
+If you dont want to overwrite the existing value, then you can create a variable by using final keyword.
+
+Ex: final int myNum = 20
