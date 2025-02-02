@@ -1,0 +1,66 @@
+Loops in Java are control structures that allows you to repeat a block of code multiple times. Loops execute until a specific condition is reached.
+
+While Loop
+The Java while loop is used to iterate a part of the program several times. If the number of iteration is not fixed, it is recommended to use while loop.
+
+while(condition)
+{
+//code to be executed
+}
+
+
+Do-while
+The Java do-while loop is used to iterate a part of the program several times. If the number of iteration is not fixed and you must have to execute the loop at least once, it is recommended to use do-while loop. The Java do-while loop is executed at least once because condition is checked after loop body.
+
+do{
+//code to be executed
+}
+while (condition);
+
+The do-while loop is a control structure in Java that is used to execute a block of code repeatedly until a certain condition is met. The difference between the do-while loop and other types of loops in Java is that the condition is checked at the end of each iteration, so the loop body is always executed at least once.
+
+The syntax for a do-while loop in Java is as follows:
+
+do {
+// code block to be executed
+} while (condition);
+
+The loop body is enclosed in curly braces {}, and the while keyword is followed by a condition that is checked at the end of each iteration. If the condition is true, the loop body is executed again. If the condition is false, the loop terminates and control passes to the next statement after the loop.
+
+Here's an example of a do-while loop in Java that prints the numbers 1 to 5:
+
+int i = 1;
+do {
+System.out.println(i);
+i++;
+} while (i <= 5);
+
+In this example, the loop body prints the value of i and increments it by 1 on each iteration. The loop continues to execute as long as i is less than or equal to 5. Since the condition is checked at the end of each iteration, the loop body is executed at least once, even if i is initially greater than 5.
+
+
+#For Loop
+When you know exactly how many times you want to loop through a block of code use the for loop instead of while loop.
+We can initialize the variable, check condition and increment/decrement value. It consists of four parts:
+
+1. Initialization: It is the initial condition which is executed once when the loop starts. Here, we can initialize the variable, or we can use an already initialized variable. It is an optional condition.
+2. Condition: It is the second condition which is executed each time to test the condition of the loop. It continues execution until the condition is false. It must return boolean value either true or false. It is an optional condition.
+3. Statement: The statement of the loop is executed each time until the second condition is false.
+4. Increment/Decrement: It increments or decrements the variable value. It is an optional condition.
+
+In Java, a for loop is a control structure that allows you to execute a block of code repeatedly a fixed number of times. The for loop consists of three parts: an initialization, a condition, and an increment/decrement. The initialization is executed once at the beginning of the loop. The condition is checked before each iteration of the loop. If the condition is true, the code inside the loop is executed. The increment/decrement is executed at the end of each iteration.
+
+The syntax for a for loop in Java is as follows:
+
+for (initialization; condition; increment/decrement) {
+// code block to be executed repeatedly
+}
+
+The initialization part is used to initialize the loop counter or any other variables that are used in the loop. The condition part is a Boolean expression that is checked before each iteration of the loop. If the condition is true, the code inside the loop is executed. If the condition is false, the loop is terminated. The increment/decrement part is used to update the loop counter or any other variables that are used in the loop.
+
+Here's an example of a for loop in Java that prints the numbers from 1 to 10:
+
+for (int i = 1; i <= 10; i++) {
+System.out.println(i);
+}
+
+In this example, the initialization part initializes the loop counter i to 1. The condition part checks whether i is less than or equal to 10. The increment/decrement part increments i by 1 at the end of each iteration. The code inside the loop prints the value of i to the console.
