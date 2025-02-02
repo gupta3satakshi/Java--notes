@@ -1,0 +1,29 @@
+Operator in java is a symbol that is used to perform operations. 
+For example: +, -, *, / etc. 
+There are many types of operators in java which are given below – Arithmetic, Relational, Logical, Assignment, Bitwise, and Ternary.
+In Java, bitwise and ternary operators are used to manipulate values at a low level or to make concise conditional statements.
+
+Bitwise operators: Java provides six bitwise operators that can be applied to integer types, including byte, short, int, and long. These operators work by comparing each bit in the two operands and returning a new value based on the comparison.
+AND (&): performs a bitwise AND operation between the two operands and returns a new value that has a 1 in each bit position where both operands have a 1.
+OR (|): performs a bitwise OR operation between the two operands and returns a new value that has a 1 in each bit position where at least one of the operands has a 1.
+XOR (^): performs a bitwise XOR (exclusive OR) operation between the two operands and returns a new value that has a 1 in each bit position where only one of the operands has a 1.
+NOT (~): performs a bitwise NOT operation on a single operand and returns a new value where each bit is flipped (0s become 1s and 1s become 0s).
+Left shift (<<): shifts the bits of the left operand to the left by a number of positions specified by the right operand, filling in the vacated bits with zeros.
+Right shift (>>): shifts the bits of the left operand to the right by a number of positions specified by the right operand, filling in the vacated bits with copies of the sign bit.
+Ternary operator: The ternary operator in Java is a shorthand way of writing an if-else statement that returns a value. It is also known as the conditional operator. The syntax of the ternary operator is as follows:
+
+variable = (condition) ? expression1 : expression2;
+
+The operator evaluates the condition first. If the condition is true, expression1 is evaluated and its result is assigned to the variable. If the condition is false, expression2 is evaluated and its result is assigned to the variable. The ternary operator can be useful when you want to make a quick decision based on a single condition. However, overuse of the ternary operator can make code difficult to read, so it should be used judiciously.
+
+Operator precedence determines the order in which operators are evaluated in an expression. In Java, operator precedence follows the same rules as in most programming languages, with some operators having higher precedence than others.
+
+In Java, operators are special symbols that are used to perform various operations on variables and values. There are several types of operators in Java, including arithmetic, assignment, comparison, logical, and bitwise operators. Here's a brief overview of each type:
+
+Arithmetic operators: These operators are used to perform mathematical operations such as addition, subtraction, multiplication, and division. They include the following symbols: + (addition), - (subtraction), * (multiplication), / (division), and % (modulus).
+Assignment operators: These operators are used to assign values to variables. They include the following symbols: = (simple assignment), += (add and assign), -= (subtract and assign), *= (multiply and assign), /= (divide and assign), and %= (modulus and assign).
+Comparison operators: These operators are used to compare values and return a boolean result (true or false). They include the following symbols: == (equal to), != (not equal to), < (less than), > (greater than), <= (less than or equal to), and >= (greater than or equal to).
+operators: These operators are used to perform logical operations and return a boolean result. They include the following symbols: && (logical AND), || (logical OR), and ! (logical NOT).
+Bitwise operators: These operators are used to perform bitwise operations on binary numbers. They include the following symbols: & (bitwise AND), | (bitwise OR), ^ (bitwise XOR), ~ (bitwise NOT), << (left shift), and >> (right shift).
+
+Understanding and using these operators is an important part of learning Java programming. They are used extensively in programming to perform various operations and manipulate data.
