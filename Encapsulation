@@ -1,0 +1,7 @@
+Encapsulation is one of the fundamental concepts of object-oriented programming (OOP) in Java. It is the process of wrapping the data (variables) and the code (methods) that operate on that data within a single unit, known as a class.
+Encapsulation enables data hiding and ensures that the data is protected from outside access and manipulation.
+Encapsulation in Java is achieved through access modifiers such as private, public, protected, and default. 
+By default, all the instance variables and methods in a class are set to default (package-private) access. 
+If a variable or a method is declared as private, it can be accessed only within the class. 
+If it is declared as public, it can be accessed from any part of the program. 
+Protected variables and methods can be accessed within the same package and by any subclass of that class.
