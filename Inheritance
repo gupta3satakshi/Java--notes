@@ -1,0 +1,20 @@
+In Java, inheritance is a mechanism by which one class can inherit properties and methods from another class.
+The class that inherits from another class is called a subclass, while the class being inherited from is called a superclass or parent class.
+When a subclass inherits from a superclass, it gains access to all of the superclass's public and protected methods and fields, and can also override or extend these methods and fields.
+To create a subclass in Java, you use the "extends" keyword followed by the name of the superclass.
+The following code creates a subclass called "Student" that inherits from a superclass called "Person"
+
+class Person {
+    String name;
+    int age;
+void sayHello() {
+System.out.println("Hello, my name is " + name);
+}
+}
+class Student extends Person {
+int grade;
+void sayHello() {
+System.out.println("Hi, I'm " + name + " and I'm in grade " + grade);
+}
+}
+
