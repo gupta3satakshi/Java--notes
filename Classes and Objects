@@ -9,3 +9,31 @@ class ClassName
 The object is a basic building block of an OOPs language. In Java, we cannot execute any program without creating an object. Java provides different ways to create a object.
 
 Using new Keyword - When we create an instance of the class by using the new keyword, it allocates memory (heap) for the newly created object and also returns the reference of that object to that memory.
+
+
+In Java, a class is a blueprint or template for creating objects. It defines the properties and behaviors that an object will have. A class can contain data fields (variables) and methods (functions) that operate on those fields.
+
+Here's an example of a simple class in Java:
+
+public class Person {
+String name;
+int age;
+public void sayHello() {
+System.out.println("Hello, my name is " + name);
+}
+}
+
+This class defines a Person with a name and age, and a method to say hello.
+
+An object is an instance of a class. It's created from the class blueprint, and has its own set of values for the data fields defined in the class. You can create multiple objects from the same class, each with its own unique values.
+
+Here's an example of creating an object from the Person class:
+
+Person john = new Person();
+john.name = "John";
+john.age = 30;
+john.sayHello();
+
+This code creates a Person object called john, sets its name and age, and calls the sayHello() method on it. The output would be "Hello, my name is John".
+
+Overall, classes and objects are fundamental concepts in object-oriented programming. They allow you to create reusable code that can be organized in a logical way, and make it easy to create multiple instances of a particular type of object.
