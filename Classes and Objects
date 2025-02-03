@@ -1,0 +1,11 @@
+Classes and Objects are the two main aspects of object oriented programming.
+We declare a class by specifying the class keyword followed by a non-reserved identifier that names it. A pair of matching open and close brace characters ({ and }) follow and delimit the class's body.
+
+class ClassName
+{
+// class body
+}
+
+The object is a basic building block of an OOPs language. In Java, we cannot execute any program without creating an object. Java provides different ways to create a object.
+
+Using new Keyword - When we create an instance of the class by using the new keyword, it allocates memory (heap) for the newly created object and also returns the reference of that object to that memory.
