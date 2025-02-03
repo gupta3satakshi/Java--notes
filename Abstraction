@@ -1,0 +1,5 @@
+Abstraction in Java is a mechanism of hiding the implementation details of a class and exposing only the relevant information to the user. It is one of the fundamental principles of object-oriented programming and is implemented using abstract classes and interfaces.
+
+Abstract classes are classes that cannot be instantiated but can be subclassed. They may have both abstract and non-abstract methods, and their main purpose is to provide a base for subclasses to implement the required methods.
+
+The use of abstraction allows for better organization of code, reduces complexity, and makes it easier to maintain and modify the code. By hiding implementation details, changes to the implementation do not affect the users of the class, and the code can be easily adapted to new requirements.
