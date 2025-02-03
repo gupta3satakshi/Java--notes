@@ -1,0 +1,13 @@
+In Java, polymorphism is a programming concept that allows objects of different classes to be treated as if they are objects of the same class.
+
+It is the ability of an object to take on multiple forms or behaviors at runtime, depending on the context in which it is used.
+
+This can be achieved through two main mechanisms:
+
+method overloading and method overriding.
+
+Method overloading occurs when a class has multiple methods with the same name, but different parameters.
+
+Method overriding occurs when a subclass provides a new implementation for a method that is already defined in its superclass. 
+
+This allows the subclass to inherit the properties and methods of its superclass, but also provide its own unique implementation for specific behaviors.
