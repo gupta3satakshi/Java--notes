@@ -1,0 +1,11 @@
+Method Overloading allows different methods to have the same name, but different signatures where the signature can differ by the number of input parameters or type of input parameters or a mixture of both.
+
+ Method overloading is also known as Compile-time Polymorphism, Static Polymorphism, or Early binding in Java.
+
+• Changing the Number of Parameters.
+• Changing Data Types of the Arguments.
+• Changing the Order of the Parameters of Methods
+
+Method overloading improves the Readability and reusability of the program. Method overloading reduces the complexity of the program. Using method overloading, programmers can perform a task efficiently and effectively. Using method overloading, it is possible to access methods performing related functions with slightly different arguments and types.
+
+Objects of a class can also be initialized in different ways using the constructors.
