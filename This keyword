@@ -1,0 +1,21 @@
+In Java, "this" is a keyword that is used to refer to the current object within a class. It can be used to refer to the current instance of a class and to access its member variables and methods.
+
+The "this" keyword is particularly useful when there is a need to differentiate between the instance variables and method parameters with the same name.
+
+Using "this" helps in explicitly referring to the instance variable, which is useful in cases where instance variable is being modified or when it is required to be accessed from within the class.
+
+For example, consider a class with an instance variable called "name" and a method called "setName" which takes a parameter called "name".
+
+To differentiate between the instance variable and the parameter, "this" can be used as follows:
+
+public class Person {
+private String name;
+public void setName(String name) {
+this.name = name;
+}
+}
+
+In the example above, "this.name" refers to the instance variable "name" in the class, while "name" refers to the parameter being passed to the method.
+
+The "this" keyword can also be used to call constructors from other constructors in the same class. This is useful in cases where multiple constructors are needed that initialize the same set of instance variables.
+
