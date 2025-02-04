@@ -1,0 +1,23 @@
+Varargs (variable-length arguments) is a feature introduced in Java 5 that allows a method to accept an arbitrary number of arguments of the same type. In other words, it allows a method to take a variable number of arguments at runtime, rather than requiring a fixed number of arguments to be specified at compile-time.
+
+The syntax for declaring a varargs parameter is to use an ellipsis (three consecutive dots) after the parameter type, followed by the parameter name. For example, the following method declaration defines a varargs parameter of type int:
+
+public static void printNumbers(int... numbers) {
+for (int i : numbers) {
+System.out.print(i + " ");
+}
+}
+
+This method can now be called with any number of integer arguments, including zero:
+
+printNumbers(1, 2, 3, 4, 5); // prints "1 2 3 4 5"
+printNumbers(); // prints nothing
+Internally, the varargs parameter is treated as an array, so the method can access the individual arguments using array syntax. If no arguments are passed to the method, the varargs parameter will be an empty array.
+
+Note that a method can only have one varargs parameter, and it must be the last parameter in the parameter list. For example, the following method declaration is invalid:
+
+public static void doSomething(int... numbers, String s) {
+// invalid
+}
+
+In summary, varargs is a useful feature that allows methods to accept a variable number of arguments of the same type, making it more flexible and convenient to use in certain situations.
