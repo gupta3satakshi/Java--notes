@@ -1,0 +1,28 @@
+Java inner class or nested class is a class that is declared inside the class or interface. We use inner classes to logically group classes and interfaces in one place to be more readable and maintainable. Additionally, it can access all the members of the outer class, including private data members and methods.
+
+Nested classes represent a particular type of relationship that is it can access all the members (data members and methods) of the outer class, including private. Nested classes are used to develop more readable and maintainable code because it logically group classes and interfaces in one place only. Code Optimization: It requires less code to write.
+
+There are two types of nested classes non-static and static nested classes. The non-static nested classes are also known as inner classes.
+
+•Non-static nested class (inner class)
+
+oMember inner class - A class created within class and outside method.
+oAnonymous inner class - A class created for implementing an interface or extending class. The java compiler decides its name.
+oLocal inner class - A class was created within the method.
+•Static nested class - A static class was created within the class.
+
+A static class is a class that is created inside a class, is called a static nested class in Java. It cannot access non-static data members and methods. It can be accessed by outer class name. It can access static data members of the outer class, including private. The static nested class cannot access non-static (instance) data members.
+
+Inner classes are a security mechanism in Java. We know a class cannot be associated with the access modifier private, but if we have the class as a member of other class, then the inner class can be made private. And this is also used to access the private members of a class.
+
+
+The scope of the local inner class is restricted to the block they are defined in. A local inner class cannot be instantiated from outside the block where it is created in. Till JDK 7, the Local inner class can access only the final local variable of the enclosing block. However, From JDK 8, it is possible to access the non-final local variable of enclosing block in the local inner class.
+
+A local class has access to the members of its enclosing class. Local inner classes can extend an abstract class or implement an interface.
+
+A local inner class can be declared within a block. This block can be either a method body, initialization block, for loop, or even an if statement.
+
+When a program containing a local inner class is compiled, the compiler generates two .class files, one for the outer class and the other for the inner class that has the reference to the outer class. The two files are named by the compiler as:
+
+Outer.class
+Outer$1Inner.class
