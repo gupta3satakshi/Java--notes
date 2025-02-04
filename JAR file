@@ -1,0 +1,3 @@
+The jar (Java Archive) tool of JDK provides the facility to create the executable jar file. An executable jar file calls the main method of the class if you double click it. To create the executable jar file, we need to create .mf file, also known as manifest file. We can create a JAR file using the following command. jar cf jar-file input-file(s)
+
+The Jar File wizard can be used to export the content of a project into a jar file. To bring up the Jar File wizard −In the Package Explorer select the items that you want to export. If you want to export all the classes and resources in the project just select the project. Click on the File menu and select Export. In the filter text box of the first page of the export wizard type in JAR.
