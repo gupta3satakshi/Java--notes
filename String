@@ -1,0 +1,49 @@
+In Java, the string is basically an object that represents a sequence of char values. An array of characters works the same as a Java string. Java String class provides a lot of methods to perform operations on strings such as compare(), concat(), equals(), split(), length(), replace(), compareTo(), intern(), substring(), etc. 
+
+The java. lang. String class implements Serializable, Comparable, and CharSequence interfaces. There are two ways to create a String object - By string literal, By new keyword.
+
+Java String literal is created by using double quotes. Each time you create a string literal, the JVM checks the "string constant pool" first. If the string already exists in the pool, a reference to the pooled instance is returned. If the string doesn't exist in the pool, a new string instance is created and placed in the pool. If we use a new keyword, JVM will create a new string object in normal (non-pool) heap memory, and the literal will be placed in the string constant pool. The variable s will refer to the object in a heap (non-pool).
+
+In Java, String concatenation forms a new String that is the combination of multiple strings. The ways to concatenate strings in Java:
+
+•By + (String concatenation) operator - Java String concatenation operator (+) is used to add strings.
+
+•By concat() method - The String concat() method concatenates the specified string to the end of current string.
+
+•String concatenation using StringBuilder class - StringBuilder is class provides append() method to perform concatenation operation.
+
+•String concatenation using format() method - String.format() method allows to concatenate multiple strings using format specifier like %s followed by the string values or objects.
+
+•String concatenation using String.join() method (Java Version 8+) - The String.join() method is available in Java version 8 and all the above versions. String.join() method accepts arguments first a separator and an array of String objects.
+
+•String concatenation using StringJoiner class (Java Version 8+) - StringJoiner class has all the functionalities of String.join() method. In advance its constructor can also accept optional arguments, prefix and suffix.
+
+•String concatenation using Collectors.joining() method (Java Version 8+) - The Collectors class in Java 8 offers joining() method that concatenates the input elements in a similar order as they occur.
+
+In Java, a string is a sequence of characters that is used to represent text. A string in Java is an object, which means that it has certain properties and behaviors that can be accessed and manipulated by the programmer.
+
+String objects are created using the String class, which is a built-in class in the Java standard library. To create a new string object, you can use a string literal enclosed in double quotes, like this:
+
+String myString = "Hello, world!";
+
+You can also create a string object using the String constructor, like this:
+
+String myString = new String("Hello, world!");
+
+Once you have created a string object, you can access its properties and behaviors using various methods provided by the String class. For example, you can get the length of a string using thelength() method, like this:  
+
+int length = myString.length();
+
+You can also compare strings using theequals() method, like this:  
+
+if (myString.equals("Hello, world!")) {
+// do something
+}
+
+Strings in Java are immutable, which means that once you create a string object, you cannot change its contents. However, you can create a new string object that contains the modified contents of the original string. For example, you can concatenate two strings using the+ operator, like this:  
+
+String greeting = "Hello, ";
+String name = "Alice";
+String message = greeting + name;
+
+In this example, themessage string object will contain the value "Hello, Alice".
