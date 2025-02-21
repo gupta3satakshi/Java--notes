@@ -1,0 +1,5 @@
+Console class provides the method to access the character-based console device. If any application needs to read the password or other secure data, then we use the console class. It is subclass of Object class and implements the flushable interface.
+
+Scanner Class is used to read the input from the keyboard. Java Scanner class extends the Object class and implements Iterator and Closable interface. It is present in java.util package. A Scanner breaks its input into token using delimiter pattern.
+
+Externalization serves the purpose of custom Serialization, where we can decide what to store in stream. Externalizable interface present in java.io, is used for Externalization which extends Serializable interface. It consists of two methods which we have to override to write/read object into/from stream which are- readExternal(ObjectInput in), writeExternal(ObjectOutput out).
