@@ -1,0 +1,13 @@
+Liskov's Substitution Principle (LSP) is a principle in object-oriented programming, including Java, named after Barbara Liskov. It defines that objects of a superclass should be replaceable with objects of its subclasses without affecting the correctness of the program.
+
+In Java, LSP encourages developers to ensure that subclasses can be used interchangeably with their base class or superclass without breaking the behavior or contracts defined by the base class. This principle is crucial for achieving polymorphism and maintaining the correctness and robustness of the codebase.
+
+To adhere to LSP in Java, several guidelines should be followed:
+
+1. The overriding methods in the subclass should comply with the behavior specified in the superclass. This means that the preconditions (input requirements), postconditions (output guarantees), and invariants (class constraints) defined in the superclass should still hold in the subclass.
+
+2. The return types of overridden methods should be covariant. This means that if a method in the superclass returns a specific type, the overriding method in the subclass can return a subtype of that type. This ensures that the substitution of objects does not lead to unexpected type errors.
+
+3. The exception types thrown by overridden methods should be compatible. If a method in the superclass declares a specific set of exceptions, the overriding method in the subclass should only throw the same exceptions or subtypes of those exceptions. This prevents unexpected exceptions from being thrown when substituting objects.
+
+By adhering to LSP in Java, code becomes more robust and flexible. Subclasses can be used interchangeably with their base classes, allowing for polymorphic behavior and enabling code reuse. It also facilitates the creation of stable and predictable class hierarchies.
