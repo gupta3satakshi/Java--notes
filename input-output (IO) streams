@@ -1,0 +1,7 @@
+In Java, input/output (I/O) streams are used to transfer data between a program and an input or output device, such as a file, network connection, or keyboard.
+
+There are two types of I/O streams in Java: byte streams and character streams. Byte streams read and write data in the form of bytes, while character streams read and write data in the form of characters.
+
+Byte streams are represented by the InputStream and OutputStream classes.
+
+I/O streams are essential for reading and writing data in Java, and provide a flexible way to transfer data between a program and external devices.
