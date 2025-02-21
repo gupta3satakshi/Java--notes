@@ -1,0 +1,25 @@
+The final keyword in Java is used to indicate that an entity, such as a variable, method, or class, cannot be further modified or extended once it has been declared as final. Here's a short overview of the final keyword in Java:
+
+Final Variables:
+
+When applied to a variable, the final keyword makes it a constant, meaning its value cannot be changed after it's initialized.
+Final variables are typically written in uppercase letters with underscores to denote constants, such as final int MAX_VALUE = 100;.
+Attempting to reassign a value to a final variable will result in a compilation error.
+Final Methods:
+
+When applied to a method, the final keyword prevents that method from being overridden by subclasses. Subclasses can't provide their own implementation of a final method.
+Final methods are often used when a class wants to ensure that certain behaviors are consistent and should not be modified by subclasses.
+Final Classes:
+
+When applied to a class, the final keyword indicates that the class cannot be extended, meaning no other class can inherit from it.
+Final classes are often used to create immutable classes, utility classes, or classes that encapsulate a complete, self-contained functionality.
+Benefits of Using final:
+
+Safety: Final variables and methods prevent unintended modification, ensuring that values or behaviors remain as intended.
+Security: Final classes can't be subverted through inheritance, making it harder to create malicious subclasses.
+Performance: The compiler and runtime environment can optimize final entities more aggressively because they won't change.
+Considerations:
+
+While final provides safety and security, it should be used judiciously. Overusing final can lead to inflexible code.
+It's common to use final for constants and in cases where you want to enforce immutability or ensure that a method's behavior remains consistent.
+In summary, the final keyword in Java is a modifier that restricts the modification, extension, or inheritance of variables, methods, and classes. It plays a vital role in ensuring code safety, security, and predictability. Developers use it strategically to create constants, prevent method overrides, and design immutable or non-extensible classes.
