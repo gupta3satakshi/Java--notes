@@ -1,0 +1,7 @@
+The Single Responsibility Principle (SRP) is a fundamental principle in object-oriented programming, including Java. It states that a class should have only one reason to change, meaning it should have a single responsibility.
+
+In Java, the SRP encourages developers to design classes that have a clear and focused purpose. Each class should encapsulate a specific behavior or responsibility and be responsible for only that behavior. This promotes modularity, maintainability, and reusability in the codebase.
+
+By adhering to the SRP, classes become more cohesive and less coupled to other classes. This allows for easier understanding, testing, and modification of the code. If a class has multiple responsibilities, changes in one area may inadvertently affect other areas, leading to code fragility and complexity.
+
+To follow the SRP in Java, it's essential to identify and define the responsibilities of each class accurately. If a class starts to accumulate unrelated behaviors, it may be an indication that it violates the SRP. In such cases, it's recommended to refactor the class into smaller, more focused classes that each handle a specific responsibility.
