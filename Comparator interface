@@ -1,0 +1,7 @@
+The Comparator interface in Java is part of the java.util package and is used to define a comparison function that can be used to sort objects.
+
+The interface contains a single method called compare(), which takes in two objects as arguments and returns an integer value. The compare() method is used to compare the two objects and return a negative integer, zero, or a positive integer based on the comparison result.
+
+If the first object is less than the second object, compare() should return a negative integer. If the first object is equal to the second object, compare() should return zero. If the first object is greater than the second object, compare() should return a positive integer.
+
+The Comparator interface can be used in conjunction with sorting methods in Java such as Arrays.sort() and Collections.sort() to provide custom sorting rules for objects. This allows developers to sort objects based on properties that are not the default sorting criteria, or to provide more complex sorting rules than those available with the default comparison logic of objects.
