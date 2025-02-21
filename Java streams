@@ -1,0 +1,11 @@
+Java streams are a powerful feature introduced in Java 8 that provide a concise and functional way to manipulate collections of data. Streams allow you to easily perform operations such as filtering, mapping, and reducing on collections of objects, and can be used with both sequential and parallel processing.
+
+A stream is a sequence of elements that can be processed in a pipeline. A pipeline consists of a source, followed by zero or more intermediate operations, and a terminal operation. The source can be any object that implements the java.util.Collection interface, such as a list, set, or map, or it can be an array or a stream itself.
+
+Intermediate operations perform transformations on the stream elements, such as filtering or mapping, and produce another stream as output. Some examples of intermediate operations include filter(), map(), distinct(), sorted(), and limit().
+
+Terminal operations produce a result or a side-effect, such as printing or collecting the stream elements into a collection. Some examples of terminal operations include forEach(), reduce(), collect(), and count().
+
+Streams can also be used with parallel processing, which can greatly improve performance on large datasets. To process a stream in parallel, simply call the parallel() method on the stream before performing any operations.
+
+Overall, Java streams provide a powerful and concise way to manipulate collections of data, and can greatly simplify the process of performing common data manipulation tasks in Java programs.
