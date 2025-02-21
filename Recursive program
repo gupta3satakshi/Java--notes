@@ -1,0 +1,15 @@
+Recursion is a programming technique in which a method calls itself repeatedly until it reaches a base case that stops the recursive calls. In Java, recursion is a powerful tool that can be used to solve complex problems by breaking them down into simpler subproblems.
+
+When a method calls itself, a new instance of the method is created on the stack, with a new set of local variables and parameters. The method then executes its code, which can include calling itself again with a different set of parameters. Each new instance of the method adds a new frame to the stack, and the frames are popped off the stack as each method call returns.
+
+A common example of recursion in Java is the factorial function. The factorial of a non-negative integer n is defined as the product of all positive integers from 1 to n.
+
+public static int factorial(int n) {
+if (n == 0) {
+return 1;
+} else {
+return n * factorial(n - 1);
+}
+}
+
+Recursion can be a powerful tool, but it can also lead to performance issues if not used carefully. Each new call to the method creates a new frame on the stack, which can use up a lot of memory if the recursion goes too deep.
