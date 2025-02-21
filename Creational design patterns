@@ -1,0 +1,15 @@
+Creational design patterns are a set of design patterns that deal with object creation mechanisms, attempting to create objects in a manner suitable to the situation. Here are some of the commonly used creational design patterns in Java:
+
+Singleton pattern: It is used to ensure that only one instance of a class is created and provide a global point of access to that instance.
+
+Factory Method pattern: It provides an interface for creating objects in a superclass, but allows subclasses to alter the type of objects that will be created.
+
+Abstract Factory pattern: It provides an interface for creating families of related or dependent objects without specifying their concrete classes.
+
+Builder pattern: It separates the construction of a complex object from its representation, allowing the same construction process to create various representations.
+
+Prototype pattern: It is used to create new objects by copying existing ones, without compromising their existing states.
+
+Object Pool pattern: It manages a pool of reusable objects, rather than creating new objects every time one is needed, thus reducing the overhead of object creation.
+
+These creational design patterns provide a variety of ways to create objects in Java, allowing developers to choose the most suitable approach based on the requirements of their application.
