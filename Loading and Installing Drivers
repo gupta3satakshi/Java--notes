@@ -1,0 +1,5 @@
+To begin with, we first need to load the driver or register it before using it in the program. Registration is to be done once in our program. We can register a driver in one of two ways mentioned below:
+
+Class.forName():Here we load the driver’s class file into memory at the runtime. No need of using new or creation of object. The following example uses Class.forName() to load the Oracle driver – Class.forName(“oracle.jdbc.driver.OracleDriver”);
+
+DriverManager.registerDriver(): DriverManager is a Java inbuilt class with a static member register. Here we call the constructor of the driver class at compile time. The following example uses DriverManager.registerDriver()to register the Oracle driver DriverManager.registerDriver(new oracle.jdbc.driver.OracleDriver())
