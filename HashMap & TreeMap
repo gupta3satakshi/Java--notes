@@ -1,0 +1,5 @@
+HashMap implements Map<K, V>, Cloneable and Serializable interface. It extends AbstractMap<K, V> class. It belongs to java.util package. HashMap contains value based on the key. It may have a single null key and multiple null values. HashMap does not maintain order while iterating. It contains unique elements. It works on the principle of hashing.
+
+TreeMap class extends AbstractMap<K, V> class and implements NavigableMap<K, V >, Cloneable, and Serializable interface. TreeMap is an example of a SortedMap. It is implemented by the Red-Black tree, which means that the order of the keys is sorted. TreeMap also contains value based on the key. TreeMap is sorted by keys. It contains unique elements.
+
+It cannot have a null key but have multiple null values. Keys are in ascending order. It stores the object in the tree structure.
