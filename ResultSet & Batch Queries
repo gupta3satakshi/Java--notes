@@ -1,0 +1,7 @@
+The object of ResultSet maintains a cursor pointing to a row of a table. Initially, the cursor points to before the first row.
+
+But we can make this object move forward and backward direction by passing either TYPE_SCROLL_INSENSITIVE or TYPE_SCROLL_SENSITIVE in the createStatement(int, int) method as well as we can make this object updatable by:
+
+Statement stmt = con.createStatement(ResultSet.TYPE_SCROLL_INSENSITIVE, ResultSet.CONCUR_UPDATABLE);
+
+A scrollable ResultSet is one which allows us to retrieve the data in the forward direction as well as a backward direction but no updations are allowed. In order to make the non-scrollable ResultSet a scrollable ResultSet we must use the following createStatement() method which is present in the Connection interface.
