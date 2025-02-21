@@ -1,0 +1,21 @@
+Object-Oriented Design (OOD) in Java is a software design approach that focuses on creating modular and reusable software components using the principles of object-oriented programming (OOP). The goal of OOD is to create software that is flexible, maintainable, and scalable.
+
+
+
+In Java, OOD is typically achieved through the use of classes and objects. A class is a blueprint for creating objects, which are instances of the class. Each object has its own set of attributes, or instance variables, and behavior, or methods, defined by the class. OOD in Java also emphasizes the use of encapsulation, inheritance, and polymorphism to achieve modularity and code reuse.
+
+
+
+Encapsulation refers to the practice of hiding the internal workings of a class from other parts of the program. This is achieved by defining private instance variables and methods, which can only be accessed by other methods within the same class. Encapsulation helps to maintain the integrity of the class and prevents unintended interference from outside the class.
+
+
+
+Inheritance is the process by which a new class is created from an existing class, inheriting its attributes and behavior. In Java, inheritance is implemented using the keyword "extends". This allows developers to create specialized classes that build upon the functionality of existing classes, promoting code reuse and reducing duplication.
+
+
+
+Polymorphism refers to the ability of an object to take on multiple forms, depending on the context in which it is used. In Java, polymorphism is achieved through method overriding and method overloading. Method overriding occurs when a subclass provides its own implementation of a method that was already defined in its parent class. Method overloading occurs when multiple methods with the same name but different parameters are defined in the same class.
+
+
+
+Overall, OOD in Java is a powerful software design approach that allows developers to create modular, scalable, and maintainable software systems. By using the principles of OOP, developers can write code that is easier to understand, test, and modify over time.
