@@ -1,0 +1,9 @@
+HashSet is a generic class of the Java collection framework. It extends AbstractSet and implements the Set interface. It creates a collection that uses a hash table for storage. The hash table stores the information by using the hashing mechanism.
+
+TreeSet is a class of Java collection framework that extends AbstractSet and implements the Set, NavigableSet, and SortedSet interface. 
+
+It creates a collection that uses a tree for storage. TreeSet is a generic class of the Java collection framework. It implements the Set interface. 
+
+It uses TreeMap internally to store the TreeSet elements. By default, it sorts the elements in natural order (ascending order). The order of sorting depends on the Comparator that we have parsed. If no Comparator is parsed, it sorts the elements in the natural order.
+
+Its performance is slow in comparison to HashSet because TreeSet sorts the elements after each insertion and deletion operation.
