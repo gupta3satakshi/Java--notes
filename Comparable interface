@@ -1,0 +1,41 @@
+In Java, the Comparable interface is used to define a natural ordering for a class. By implementing the Comparable interface, a class can specify how instances of that class should be compared to each other.
+
+
+The Comparable interface contains a single method called compareTo(), which takes a single argument of the same type as the implementing class and returns an integer value. The compareTo() method should return a negative integer if the implementing object is less than the argument, zero if they are equal, and a positive integer if the implementing object is greater than the argument.
+
+Here is an example of a class that implements the Comparable interface:
+
+public class Person implements Comparable<Person> {
+private String name;
+private int age;
+public Person(String name, int age) {
+this.name = name;
+this.age = age;
+}
+public String getName() {
+return name;
+}
+public int getAge() {
+return age;
+}
+
+@Override
+public int compareTo(Person other) {
+return this.age - other.age;
+}
+}
+
+
+
+In this example, the Person
+class implements the Comparable
+interface with the Person
+type as the generic parameter. The compareTo()
+method compares Person
+objects based on their age. If p1
+and p2 are Person objects, then p1.compareTo(p2) will return a negative
+value if p1 is younger than p2, zero if they are the same age, and a
+positive value if p1 is
+older than p2.
+
+By implementing the Comparable interface, instances of the Person class can be easily sorted using methods such as Arrays.sort() or Collections.sort().
