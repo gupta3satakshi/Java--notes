@@ -1,0 +1,13 @@
+In Java, a LinkedHashMap is a subclass of the HashMap class that maintains the order of elements in which they were inserted. This means that the order of the keys and values in a LinkedHashMap is predictable and can be maintained over time.
+
+Like a regular HashMap, a LinkedHashMap stores key-value pairs, where each key must be unique. However, the LinkedHashMap also maintains a doubly-linked list of entries, which allows it to maintain the order of elements. This linked list can be traversed in either forward or backward direction, allowing for more flexible iteration of the elements in the LinkedHashMap.
+
+Here are some key features of a LinkedHashMap:
+
+Maintains the order of elements: A LinkedHashMap maintains the order in which elements were added, making it useful for situations where order is important.
+
+Allows null values: Like a HashMap, a LinkedHashMap allows null values for both keys and values.
+
+Implements the Map interface: A LinkedHashMap implements the Map interface, which means that it provides the same methods for adding, removing, and accessing elements as a regular HashMap.
+
+Slower than a regular HashMap: Due to the additional linked list that must be maintained, a LinkedHashMap can be slightly slower than a regular HashMap.
