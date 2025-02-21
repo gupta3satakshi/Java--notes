@@ -1,0 +1,7 @@
+JDBC is an international standard for programming access to SQL databases. It was developed by JavaSoft, a subsidiary of Sun Microsystems. 
+
+Relational Database Management System supports SQL.
+
+As we know that Java is platform-independent, and JDBC makes it possible to write a single database application that can run on different platforms and interact with different Database Management Systems. 
+
+Java Database Connectivity is similar to Open Database Connectivity (ODBC) which is used for accessing and managing databases, but the difference is that JDBC is designed specifically for Java programs, whereas ODBC is not dependent upon any language.
