@@ -1,0 +1,15 @@
+The Interface Segregation Principle (ISP) is a principle in object-oriented programming, including Java, that emphasizes the importance of designing fine-grained, specialized interfaces. It states that clients should not be forced to depend on interfaces they do not use.
+
+In Java, ISP encourages developers to create interfaces that are focused and tailored to the specific needs of the clients that will consume them. This principle helps prevent the problem of "fat" or "bloated" interfaces that contain methods irrelevant to certain clients.
+
+By adhering to ISP in Java, several guidelines can be followed:
+
+1. Keep interfaces small and cohesive: Interfaces should represent a specific set of related behaviors. They should not contain unrelated methods that are not relevant to all implementing classes.
+
+2. Avoid "one-size-fits-all" interfaces: Instead of creating a single large interface, consider breaking it down into smaller, more focused interfaces. This allows clients to depend only on the interfaces they require.
+
+3. Use interface segregation techniques: If there are common behaviors shared by multiple interfaces, consider creating smaller interfaces that extend a common base interface. This allows clients to selectively implement only the interfaces they need.
+
+By applying ISP, Java codebases become more modular, maintainable, and flexible. Clients can depend on interfaces that precisely match their requirements, reducing unnecessary dependencies and potential coupling between classes.
+
+Additionally, ISP promotes code reuse, as smaller interfaces can be combined or composed to create more complex behavior. It also simplifies testing, as clients can easily mock or stub interfaces that contain only the relevant methods for their testing scenarios.
