@@ -1,0 +1,5 @@
+Amortization is a design pattern used to improve the performance of algorithms that perform a sequence of operations, where some of the operations are expensive and others are cheap. The pattern works by spreading the cost of the expensive operations over multiple cheaper operations.
+
+For example, let's say you have a data structure that needs to be resized as new items are added to it. Resizing the data structure is an expensive operation that takes O(n) time, where n is the number of items in the structure. To avoid resizing the data structure too frequently, you could use the amortization pattern by doubling the size of the structure each time it needs to be resized. This means that you'll only need to resize the structure every O(log n) operations, which significantly reduces the number of expensive operations required.
+
+The amortization pattern is often used in data structures such as dynamic arrays, hash tables, and binary heaps. By using this pattern, you can ensure that the worst-case time complexity of operations on the data structure is reduced, while still maintaining good average-case performance.
