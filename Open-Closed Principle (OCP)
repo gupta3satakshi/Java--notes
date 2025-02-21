@@ -1,0 +1,9 @@
+The Open-Closed Principle (OCP) is a fundamental principle in object-oriented programming, including Java. It states that classes should be open for extension but closed for modification.
+
+In Java, the OCP encourages developers to design classes that can be extended to incorporate new behaviors or functionality without modifying their existing code. This principle promotes software stability, reusability, and maintainability.
+
+To adhere to the OCP, Java developers typically use abstraction and inheritance. They create abstract classes or interfaces that define a common behavior or contract, and then concrete classes that implement or extend those abstractions. When new functionality needs to be added, rather than modifying existing classes, new classes are created that inherit from the existing abstractions or implement the defined interfaces.
+
+By following the OCP, the existing codebase remains untouched, ensuring that any changes or extensions do not introduce bugs or unintended side effects. It also allows for easier testing and reduces the likelihood of introducing breaking changes.
+
+In Java, several design patterns, such as the Strategy pattern or the Decorator pattern, can be used to facilitate adherence to the Open-Closed Principle. These patterns enable behavior extension and modification without modifying the existing codebase.
